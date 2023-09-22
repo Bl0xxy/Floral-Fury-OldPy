@@ -15,7 +15,7 @@ if response.status_code == 200:
   # Access the data in the JSON file
   # For example, if the JSON structure is a dictionary:
   # Access a specific key in the JSON data
-  print("Value of key 'example_key':", json_data.get("example_key"))
+  print("Value: ", json_data.get("example_key"))
 else:
   print("Failed to retrieve the JSON file. Status code:", response.status_code)
   input()
